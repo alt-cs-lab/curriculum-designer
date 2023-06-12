@@ -1,0 +1,21 @@
+version: '3'
+services:
+  curriculum-designer-server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4001:4001"
+    container_name: curriculum-designer-server
+    volumes:
+       - ./server:/usr/src/curriculum-designer/server
+  curriculum-designer-client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    container_name: curriculum-designer-client
+    stdin_open: true
+    volumes:
+       - ./client:/usr/src/curriculum-designer/client
