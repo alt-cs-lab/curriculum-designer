@@ -1,0 +1,26 @@
+{
+  "bigideas":
+  [
+    {
+      "fqid": "CRD-1",
+      "name": "Creative Development (CRD)",
+      "description": "Big Idea 1: Creative Development (CRD) When developing computing innovations, developers can use a formal, iterative design process or experimentation. While using either approach, developers will encounter phases of investigating and reflecting, designing, prototyping, and testing. Additionally, collaboration is an important tool to use at any phase of development because considering multiple perspectives allows for improvement of innovations.",
+      "learning-objectives": [
+        {
+          "fqid": "CRD-1.A",
+          "name": "Explain how computing innovations are improved through collaboration.",
+          "essential-knowledge": [
+            {
+              "fqid": "CRD-1.A.1",
+              "name": "A computing innovation includes a program as an integral part of its function."
+            },
+            {
+              "fqid": "CRD-1.A.2",
+              "name": "A computing innovation can be physical (e.g., self-driving car), nonphysical computing software (e.g., picture editing software), or a nonphysical computing concept (e.g., e-commerce)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
