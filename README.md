@@ -6,7 +6,11 @@ This project is for creating curriculum maps from the ACM Curriculum Recommendat
 
 This project consists of a React client coupled with a server providing an API for that client to communicate with. In production, the built react client is deployed through the dockerized API server.
 
-## Development
+## GitHub Codespaces Development
+
+The recommended approach to development is to utilize GitHub codepaces. This project is already set up. Simply launching the repository in a codespace will set up the development environment and initiate a watch on both the React client and API server. This allows for hot code reloading as you develop.
+
+# Local Development with Docker
 
 It is recommended to take advantage of the dockerized development setup. On a machine with docker-compose installed, from the top level project directory, run:
 
